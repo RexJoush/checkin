@@ -30,7 +30,7 @@ const glados = async () => {
 
     try {
       const domain = process.env.DOMAIN || 'glados.cloud'
-      const ua = agents[index] || agents[0] || 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36'
+      const ua = agents[index] || agents[0] || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36'
       
       console.log(`[账号 ${accountNo}] 目标域名: ${domain}`)
       console.log(`[账号 ${accountNo}] UA: ${mask(ua, 8, 8)}`)
